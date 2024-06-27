@@ -6,7 +6,9 @@ let aux=+base
 let pot = aux
 
 let expoente = +prompt('E o expoente? ');
-
+if(expoente==3){
+    base=1;
+}
 for(i=1;i<expoente;i++){
     
     for(j=1;j<pot;j++){
